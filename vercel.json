@@ -5,7 +5,7 @@
         "destination": "https://asia-east1-ntpu-gdg-blog.cloudfunctions.net/blog/api/:path*"
       },
       {
-        "source": ":path*",
+        "source": "/:path*",
         "destination": "https://asia-east1-ntpu-gdg-blog.cloudfunctions.net/blog/:path*"
       }
     ]
