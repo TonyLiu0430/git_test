@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/api",
+        "destination": "https://asia-east1-ntpu-gdg-blog.cloudfunctions.net/blog/api"
+      },
+      {
+        "source": "",
+        "destination": "https://asia-east1-ntpu-gdg-blog.cloudfunctions.net/blog/"
+      }
+    ]
+  }
